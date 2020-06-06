@@ -84,6 +84,14 @@ const Dashboard: React.FC = () => {
     toggleEditModal();
   }
 
+  async function handleUpdateAvalability(food: IFoodPlate): Promise<void> {
+    const { id } = food;
+
+    await api.put(`/foods/${id}`, food);
+
+    setFoods(foods.map(foodData => (foodData.id === id ? food : foodData)));
+  }
+
   return (
     <>
       <Header openModal={toggleModal} />
@@ -107,6 +115,7 @@ const Dashboard: React.FC = () => {
               food={food}
               handleDelete={handleDeleteFood}
               handleEditFood={handleEditFood}
+              handleUpdateAvalability={handleUpdateAvalability}
             />
           ))}
       </FoodsContainer>

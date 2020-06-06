@@ -1,12 +1,12 @@
 {
   "foods": [
     {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "id": 1,
       "name": "Ao molho",
-      "price": "99.90",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+      "price": "19.90",
       "available": true,
-      "id": 1
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
       "id": 2,
@@ -23,28 +23,6 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
-    },
-    {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
-      "name": "Sei lá",
-      "price": "50.00",
-      "description": "descrição",
-      "id": 4
-    },
-    {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "name": "Prato de exemplo",
-      "price": "9.99",
-      "description": "sim",
-      "id": 5
-    },
-    {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "name": "TESTE COMIDA",
-      "price": "15.49",
-      "description": "TESET DESC",
-      "available": true,
-      "id": 6
     }
   ]
 }
